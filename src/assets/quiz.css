@@ -1,5 +1,5 @@
-form{
-    width: 500px;
+.mainContainer {
+    width: 600px;
     border: 1px solid black;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
@@ -8,23 +8,28 @@ form{
     align-items: center;
     flex: 1 1 300px;
 }
-h2{
+
+h2 {
     color: black;
 }
-p{
+
+p {
     color: rgb(0, 0, 0);
+    padding: 1px;
 }
-.mainContainer{
+
+.mainContainer1 {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.options{
-    width: 100%;
 
+.options {
+    width: 100%;
 }
-.option{
+
+.option {
     border: 1px solid black;
     border-radius: 10px;
     color: black;
@@ -32,19 +37,21 @@ p{
     padding: 20px;
     margin: 20px;
 }
-.buttons{
+
+.buttons {
     height: 100px;
     width: 90%;
     display: flex;
     gap: 10px;
 }
-.buttons button{
+
+.buttons button {
     height: 50px;
     border: 1px solid rgb(128, 128, 255);
-flex: 1 1;
+    flex: 1 1;
 }
 
-.optionSelect{
+.optionSelect {
     border: 1px solid rgb(0, 255, 94);
     border-radius: 10px;
     color: black;
@@ -53,10 +60,12 @@ flex: 1 1;
     padding: 20px;
     margin: 20px;
 }
+
 .wrong {
-  background-color: lightcoral;
-  border-color: red;
+    background-color: lightcoral;
+    border-color: red;
 }
-.WhiteColor{
+
+.WhiteColor {
     color: white;
 }
